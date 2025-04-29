@@ -1,0 +1,21 @@
+{
+    "conf": 0.5,
+    "model": "yolov8n.pt",
+    "device": "cpu",
+    "cameras": [
+        {
+            "id": "C01",
+            "url": "3.mp4",
+            "roi": [[310, 14], [618, 18], [610, 453], [309, 445]],
+            "direction_mode": "horizontal",
+            "entry_direction": "right_to_left"
+        },
+        {
+            "id": "C02",
+            "url": "6.mp4",
+            "roi": [[300, 10], [600, 10], [600, 450], [300, 450]],
+            "direction_mode": "vertical",
+            "entry_direction": "left_to_right"
+        }
+    ]
+}
